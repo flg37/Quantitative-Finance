@@ -24,8 +24,8 @@ warnings.filterwarnings('ignore')
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-API_KEY = "PKPN7GJAGEW72QL72PDYEHTZTA"
-SECRET_KEY = "4CwQUrenfZJcoWtHx9vwoYjLh6XAGbNjP7qP246iU992"
+API_KEY = ""
+SECRET_KEY = ""
 PAPER = True  # Set to False for real money (be careful)
 
 def get_sp500_tickers():

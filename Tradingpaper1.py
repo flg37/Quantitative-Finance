@@ -11,8 +11,8 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 # ------------------------------------------------------------
 # 1. Configuration (Hardcoded Keys)
 # ------------------------------------------------------------
-API_KEY = "PKX2D2EF6CYRRQD3A3YARPKLKH"
-API_SECRET = "HqeZsbyGczmviJWo4vKWwimZkJm81Zj5stJWSUvmCxSb"
+API_KEY = ""
+API_SECRET = ""
 
 # Connect to Alpaca Paper Trading
 trading_client = TradingClient(API_KEY, API_SECRET, paper=True)

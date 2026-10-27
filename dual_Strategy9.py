@@ -31,20 +31,20 @@ from oandapyV20.endpoints import instruments, accounts, orders, trades, pricing
 # CONFIGURATION
 # ==========================================
 # OANDA LIVE (trading, account, price data, candles)
-ACCESS_TOKEN = "9eaf96ea3129b473d9e556914cdec8f3-64200d6cc6bdbab40cf6cbbfe0c09d54"        # <-- live token
-ACCOUNT_ID   = "001-004-20694231-005"        # <-- live account ID
+ACCESS_TOKEN = ""        # <-- live token
+ACCOUNT_ID   = ""        # <-- live account ID
 ENVIRONMENT  = "live"
 
 # OANDA PRACTICE (used ONLY for retail position-book sentiment data,
 # which is restricted on live accounts. The position book is market-wide,
 # so practice returns identical data to what live would return.)
-DATA_ACCESS_TOKEN = "7600f9c4df6e6cf9cff9b4bab9dae1a7-90059797b20232268acccc80cef961fc"  # <-- practice token
+DATA_ACCESS_TOKEN = ""  # 
 DATA_ENVIRONMENT  = "practice"
 
 
 TELEGRAM_ENABLED = True
-TELEGRAM_CHAT_ID = "8040883686"
-TELEGRAM_BOT_TOKEN = "8767686208:AAF-1Po2rwiAClU3_qS_rAzE26m6H_dAW-I"
+TELEGRAM_CHAT_ID = ""
+TELEGRAM_BOT_TOKEN = ""
 bot_enabled = True
 last_telegram_update_id = None
 

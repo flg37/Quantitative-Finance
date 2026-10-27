@@ -20,8 +20,8 @@ from alpaca.data.enums import DataFeed
 # ==========================================
 # 0. CONFIGURATION
 # ==========================================
-API_KEY = "PKUKUDXZEQ76NY7AYEFFLEBHK2"
-SECRET = "7caZemN9bTJwUwTVSAgavFcQxKU9rrCFSDZ7pmXSPd3g"
+API_KEY = ""
+SECRET = ""
 PAPER = True 
 
 trade_api = TradingClient(API_KEY, SECRET, paper=PAPER)
